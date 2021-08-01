@@ -1,0 +1,112 @@
+@media screen and (max-width:1108px){
+
+      .section1 .bottom{
+      -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+
+      }
+
+      aside{
+      -webkit-flex-direction: row;  -ms-flex-direction: row;  flex-direction: row;
+      text-align: center;
+      justify-content: center;
+      margin: 0 auto;
+      margin-top: 40px;
+      }
+
+      aside p{
+        text-align: center;
+      }
+
+}
+
+@media screen and (max-width:902px){
+
+    .section2 .bottom{
+    display: -webkit-flex; display: -ms-flex;  display: flex;
+    -webkit-flex-direction: column;  -ms-flex-direction: column;   flex-direction: column;
+    }
+
+
+    aside{
+      width: auto;
+      -webkit-flex-direction: column;   -ms-flex-direction: column;   flex-direction: column;
+    }
+
+    .features{
+      -webkit-flex-direction: column;  -ms-flex-direction: column;  flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:752px){
+
+  .s3_logo{
+    height: auto;
+    width: 40%;
+    display: -webkit-flex; display: -ms-flex; display: flex;
+    -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+  }
+
+  .s3_logo img{
+    margin-bottom: 40px;
+  }
+}
+
+
+@media screen and (max-width:700px){
+
+  h1{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  header p {
+    width: 60%;
+  }
+
+  .buttons{
+    -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+    -ms-align-items: center;   align-items: center;
+    justify-content: space-around;
+  }
+
+  .button{
+      width: 60%;
+  }
+
+  .green_button{
+    margin-bottom: 20px;
+  }
+
+  .section1 .top  p{
+    width:55% ;
+  }
+
+  .section2 p{
+    width: 52%;
+  }
+
+  .section4 p{
+    width: 51%;
+  }
+
+}
+
+@media screen and (max-width:600px){
+  footer{
+    -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+    }
+
+    .gauche{
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    .part{
+      margin: 5px 25px;
+    }
+}
