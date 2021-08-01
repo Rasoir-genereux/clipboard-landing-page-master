@@ -92,17 +92,13 @@ header p{
 }
 /*FIN DE L'ENTETE*/
 
-main{
-
-}
-
 h1, h2, h3, h5{
   color: var(--Dark_Grayish_Blue);
 }
 
 
 p{
-  line-heigth:8px;
+ line-height:8px;
 color: var(--Grayish_Blue);
 font-size: 0.8em;
 }
