@@ -102,6 +102,7 @@ h1, h2, h3, h5{
 
 
 p{
+  line-heigth:8px;
 color: var(--Grayish_Blue);
 font-size: 0.8em;
 }
